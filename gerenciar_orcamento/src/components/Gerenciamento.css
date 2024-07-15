@@ -1,0 +1,66 @@
+.gerenciamento {
+    text-align: center;
+  }
+  
+  .saldo, .entrada-despesas, .lista-despesas, .calculadora-orcamento {
+    margin-bottom: 20px;
+  }
+  
+  .saldo input {
+    display: block;
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .saldo button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saldo button:hover {
+    background-color: #0056b3;
+  }
+  
+  .entrada-despesas input {
+    display: block;
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .entrada-despesas button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .entrada-despesas button:hover {
+    background-color: #218838;
+  }
+  
+  .lista-despesas ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista-despesas li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .lista-despesas li:last-child {
+    border-bottom: none;
+  }
+  
